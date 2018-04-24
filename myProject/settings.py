@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_materialize_boilerplate.urls'
+ROOT_URLCONF = 'myProject.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_materialize_boilerplate.wsgi.application'
+WSGI_APPLICATION = 'myProject.wsgi.application'
 
 
 # Database
